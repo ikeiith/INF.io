@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+}
+.inicio{
+      font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+      font-size: 80px;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      display: block;
+  
+      
+      
+      
+      
+     
+   
+
+}
+.background-img{
+    background-image: url('https://images.wallpaperscraft.com/image/single/landscape_mountains_sun_140434_3840x2400.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    z-index: 0;
+    filter: brightness(0.5);
+}
