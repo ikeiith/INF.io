@@ -1,4 +1,9 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+}
 .inicio{
       font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
       font-size: 80px;
@@ -103,3 +108,4 @@
         opacity: 1;
         transition: 2s all;
     }
+       
