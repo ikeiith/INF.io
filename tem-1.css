@@ -32,6 +32,8 @@
     height: 100em;
     width: 100em;
     overflow: hidden;
+    background: fixed;
+    background-color: rgb(12, 12, 12);
     
 }
 .x1{
