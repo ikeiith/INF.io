@@ -4,19 +4,29 @@
     
    
 }
-.inicio{
-      font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
-      font-size: 80px;
-      text-align: center;
-      text-decoration: none;
-      color: black;
-      display: block;
-  
-      
-      
-      
-    
+.nav{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    background-color: orangered;
+    height: 100px;
+       
 }
+.inicio{
+    text-decoration: none;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+   
+
+ 
+} 
+
 
 
 
@@ -25,7 +35,7 @@
     background-image: url('https://images.wallpaperscraft.com/image/single/landscape_mountains_sun_140434_3840x2400.jpg');
     background-size: cover;
     background-attachment: fixed;
-    
+
     display: inline-block;
     height: 100em;
     width: 100em;
@@ -34,246 +44,138 @@
     background-color: rgb(12, 12, 12);
 }
 
-/**TEMPORADA 1 **/
-.caja1{
+.x1{
     position: absolute;
     display: inline-block;
-    margin: auto;
-     left: 90px;
-     top: 100px;
-    width: 200px;
-    height: 400px;
-    border: 2px solid crimson;
+    margin: 0px;
+    padding: 0px;
     overflow: hidden;
-     background-position-x: center;
-     background-image: url(https://i.pinimg.com/originals/cd/53/d6/cd53d614c1627d918d2147903a3c02f5.jpg);
-     background-size: cover;
-     padding: 0px;
-     filter: brightness(0.5);
-    }   
-.caja1:hover{
-    position: absolute;
-    display: inline-block;
-    margin: auto;
-     left: 90px;
-     top: 100px;
-    width: 200px;
-    height: 400px;
-    border: 2px solid rgb(0, 0, 0);
-    overflow: hidden;
-     background-position-x: center;
-     background-image: url(https://i.pinimg.com/originals/cd/53/d6/cd53d614c1627d918d2147903a3c02f5.jpg);
-     background-size: cover;
-     padding: 0px;
-     filter: brightness(1);
-     transition: 2s all;
-    
-  
+     
+    width: 40px;
+    height: 40px;
+    left: 90px;
+    top: 120px;
 
-}         
-
-.text-1{
+    border: 2px solid rgb(255, 74, 74);
+    border-radius: 100%;
+    background-color: rgb(15, 15, 15);
+    object-fit: cover;
+}
+.tex1{
     font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
-    font-size: 50px;
-    border: 2px solid rgb(0, 0, 0);
-    color: rgb(255, 0, 55);
+    font-size: 30px; 
+    color: rgb(255, 44, 44);
     text-align: center;
     text-decoration: none;
+  
+    display: block;
+  
+}
+.x2{
     position: absolute;
     display: inline-block;
-    top: 0px;
-    left: 0px;
-    width: 196px;
-    height: 246px;
-    padding-top: 150px;
-    opacity: 0.5;
-   
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+     
+    width: 40px;
+    height: 40px;
+    left: 140px;
+    top: 120px;
+
+    border: 2px solid rgb(255, 74, 74);
+    border-radius: 100%;
+    background-color: rgb(15, 15, 15);
+    object-fit: cover;
 }
-    
-.text-1:hover{
-        font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
-        font-size: 50px;
-        border: 2px solid rgb(255, 0, 64);
-        color: rgb(0, 0, 0);
-        text-align: center;
-        text-decoration: none;
-        position: relative;
-        display: inline-block;
-        top: 0px;
-        left: 0px;
-        width: 196px;
-        height: 246px;
-        padding-top: 150px;
-        opacity: 1;
-        transition: 2s all;
-        text-shadow: 1px 3px crimson;
-    }
-       
-    /** TEMPORADA 2**/     
-    .caja2{
-        position: absolute;
-        display: inline-block;
-        margin: auto;
-         left: 320px;
-         top: 100px;
-        width: 200px;
-        height: 400px;
-        border: 2px solid rgb(20, 90, 220);
-        overflow: hidden;
-         background-position-x: center;
-         background-image: url(https://m.media-amazon.com/images/I/81WIbh05wOS._AC_SL1500_.jpg);
-         background-size: cover;
-         padding: 0px;
-         filter: brightness(0.5);
-        }   
-    .caja2:hover{
-        position: absolute;
-        display: inline-block;
-        margin: auto;
-         left: 320px;
-         top: 100px;
-        width: 200px;
-        height: 400px;
-        border: 2px solid rgb(0, 0, 0);
-        overflow: hidden;
-         background-position-x: center;
-         background-image: url(https://m.media-amazon.com/images/I/81WIbh05wOS._AC_SL1500_.jpg);
-         background-size: cover;
-         padding: 0px;
-         filter: brightness(1);
-         transition: 2s all;
-        
-      
-    
-    }         
-    
-    .text-2{
-        font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
-        font-size: 50px;
-        border: 2px solid rgb(0, 0, 0);
-        color: rgb(17, 0, 255);
-        text-align: center;
-        text-decoration: none;
-        position: absolute;
-        display: inline-block;
-        top: 0px;
-        left: 0px;
-        width: 196px;
-        height: 246px;
-        padding-top: 150px;
-        opacity: 0.5;
-       
-    }
-        
-    .text-2:hover{
-            font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
-            font-size: 50px;
-            border: 2px solid rgb(0, 38, 255);
-            color: rgb(0, 0, 0);
-            text-align: center;
-            text-decoration: none;
-            position: relative;
-            display: inline-block;
-            top: 0px;
-            left: 0px;
-            width: 196px;
-            height: 246px;
-            padding-top: 150px;
-            opacity: 1;
-            transition: 2s all;
-            text-shadow: 1px 3px rgb(20, 33, 220);
-        }    
+.tex2{
+    font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+    font-size: 30px;
+  
+    color: rgb(255, 44, 44);
+    text-align: center;
+    text-decoration: none;
+  
+    display: block;
+}
+.x3{
+    position: absolute;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+     
+    width: 40px;
+    height: 40px;
+    left: 190px;
+    top: 120px;
 
-    /** TEMPORADA 3**/     
-    .caja3{
-        position: absolute;
-        display: inline-block;
-        margin: auto;
-         left: 550px;
-         top: 100px;
-        width: 200px;
-        height: 400px;
-        border: 2px solid rgb(255, 0, 0);
-        overflow: hidden;
-         background-position-x: center;
-         background-image: url(https://static.wikia.nocookie.net/93d83432-fea4-4598-b361-eae8a53b101d/scale-to-width/755);
-         background-size: cover;
-         padding: 0px;
-         filter: brightness(0.5);
-        }   
-    .caja3:hover{
-        position: absolute;
-        display: inline-block;
-        margin: auto;
-         left: 550px;
-         top: 100px;
-        width: 200px;
-        height: 400px;
-        border: 2px solid rgb(0, 0, 0);
-        overflow: hidden;
-         background-position-x: center;
-         background-image: url(https://static.wikia.nocookie.net/93d83432-fea4-4598-b361-eae8a53b101d/scale-to-width/755);
-         background-size: cover;
-         padding: 0px;
-         filter: brightness(1);
-         transition: 2s all;
-        
-      
-    
-    }         
-    
-    .text-3{
-        font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
-        font-size: 50px;
-        border: 2px solid rgb(0, 0, 0);
-        color: rgb(255, 0, 0);
-        text-align: center;
-        text-decoration: none;
-        position: absolute;
-        display: inline-block;
-        top: 0px;
-        left: 0px;
-        width: 196px;
-        height: 246px;
-        padding-top: 150px;
-        opacity: 0.5;
-       
-    }
-        
-    .text-3:hover{
-            font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
-            font-size: 50px;
-            border: 2px solid rgb(255, 0, 0);
-            color: rgb(0, 0, 0);
-            text-align: center;
-            text-decoration: none;
-            position: relative;
-            display: inline-block;
-            top: 0px;
-            left: 0px;
-            width: 196px;
-            height: 246px;
-            padding-top: 150px;
-            opacity: 1;
-            transition: 2s all;
-            text-shadow: 1px 3px rgb(255, 0, 0);
-        }            
-    
-    
+    border: 2px solid rgb(255, 74, 74);
+    border-radius: 100%;
+    background-color: rgb(15, 15, 15);
+    object-fit: cover;
+}
+.tex3{
+    font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+    font-size: 30px;
+  
+    color: rgb(255, 44, 44);
+    text-align: center;
+    text-decoration: none;
+  
+    display: block;
+}
+.x4{
+    position: absolute;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+     
+    width: 40px;
+    height: 40px;
+    left: 240px;
+    top: 120px;
 
-    
+    border: 2px solid rgb(255, 74, 74);
+    border-radius: 100%;
+    background-color: rgb(15, 15, 15);
+    object-fit: cover;
+}
+.tex4{
+    font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+    font-size: 30px;
+  
+    color: rgb(255, 44, 44);
+    text-align: center;
+    text-decoration: none;
+  
+    display: block;
+}
+.x5{
+    position: absolute;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+     
+    width: 40px;
+    height: 40px;
+    left: 290px;
+    top: 120px;
 
-    
-    
-   
-    
-
-
-    
-    
-    
-    
-   
-
-   
-
+    border: 2px solid rgb(255, 74, 74);
+    border-radius: 100%;
+    background-color: rgb(15, 15, 15);
+    object-fit: cover;
+}
+.tex5{
+    font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+    font-size: 30px;
+  
+    color: rgb(255, 44, 44);
+    text-align: center;
+    text-decoration: none;
+  
+    display: block;
+}
