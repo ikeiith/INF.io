@@ -1,37 +1,290 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
-    <title>INFINITY</title>
+*{
+    margin: 0;
+    padding: 0;
     
-</head>
-<body>
- 
-  
-    <header>
-        <nav class="nav">
-            
-                <a class="inicio" href="index.html"> INICIO 
-                    <div class="temp-text"> T E M P O R A D A S </div> 
-           
-        </nav>
-    </header>  
-  
+   
+}
+body{
+    background-color: rgb(15, 15, 15);
+}
+.nav{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    background-color: orangered;
+    height: 100px;
+       
+}
 
-
-<div class="caja1"  >  <a class="text-1" href="tem-1.html">  1 </a> </div> 
-
-<div class="caja2"  >  <a class="text-2" href="tem-2.html">  2 </a> </div>  
- 
-<div class="caja3"  >  <a class="text-3" href="tem-3.html">  3 </a> </div>  
+.inicio{
+    text-decoration: none;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: block;
    
 
-
+ 
+}
+.temp-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    margin: 10px;
+    color: rgb(255, 94, 0);
+    text-align: center;
+    
+    
+    
+    
+    
   
-</body>
-</html>
+  
+}
+
+/**TEMPORADA 1 **/
+.caja1{
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+     left: 90px;
+     top: 200px;
+    width: 200px;
+    height: 400px;
+    border: 2px solid crimson;
+    overflow: hidden;
+     background-position-x: center;
+     background-image: url(https://i.pinimg.com/originals/cd/53/d6/cd53d614c1627d918d2147903a3c02f5.jpg);
+     background-size: cover;
+     padding: 0px;
+     filter: brightness(0.5);
+    }   
+.caja1:hover{
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+     left: 90px;
+     top: 200px;
+    width: 200px;
+    height: 400px;
+    border: 2px solid rgb(0, 0, 0);
+    overflow: hidden;
+     background-position-x: center;
+     background-image: url(https://i.pinimg.com/originals/cd/53/d6/cd53d614c1627d918d2147903a3c02f5.jpg);
+     background-size: cover;
+     padding: 0px;
+     filter: brightness(1);
+     transition: 2s all;
+    
+  
+
+}         
+
+.text-1{
+    font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+    font-size: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 0, 55);
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    display: inline-block;
+    top: 0px;
+    left: 0px;
+    width: 196px;
+    height: 246px;
+    padding-top: 150px;
+    opacity: 0.5;
+   
+}
+    
+.text-1:hover{
+        font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+        font-size: 50px;
+        border: 2px solid rgb(255, 0, 64);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+        display: inline-block;
+        top: 0px;
+        left: 0px;
+        width: 196px;
+        height: 246px;
+        padding-top: 150px;
+        opacity: 1;
+        transition: 2s all;
+        text-shadow: 1px 3px crimson;
+    }
+       
+    /** TEMPORADA 2**/     
+    .caja2{
+        position: absolute;
+        display: inline-block;
+        margin: auto;
+         left: 320px;
+         top: 200px;
+        width: 200px;
+        height: 400px;
+        border: 2px solid rgb(20, 90, 220);
+        overflow: hidden;
+         background-position-x: center;
+         background-image: url(https://m.media-amazon.com/images/I/81WIbh05wOS._AC_SL1500_.jpg);
+         background-size: cover;
+         padding: 0px;
+         filter: brightness(0.5);
+        }   
+    .caja2:hover{
+        position: absolute;
+        display: inline-block;
+        margin: auto;
+         left: 320px;
+         top: 200px;
+        width: 200px;
+        height: 400px;
+        border: 2px solid rgb(0, 0, 0);
+        overflow: hidden;
+         background-position-x: center;
+         background-image: url(https://m.media-amazon.com/images/I/81WIbh05wOS._AC_SL1500_.jpg);
+         background-size: cover;
+         padding: 0px;
+         filter: brightness(1);
+         transition: 2s all;
+        
+      
+    
+    }         
+    
+    .text-2{
+        font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+        font-size: 50px;
+        border: 2px solid rgb(0, 0, 0);
+        color: rgb(17, 0, 255);
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        display: inline-block;
+        top: 0px;
+        left: 0px;
+        width: 196px;
+        height: 246px;
+        padding-top: 150px;
+        opacity: 0.5;
+       
+    }
+        
+    .text-2:hover{
+            font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+            font-size: 50px;
+            border: 2px solid rgb(0, 38, 255);
+            color: rgb(0, 0, 0);
+            text-align: center;
+            text-decoration: none;
+            position: relative;
+            display: inline-block;
+            top: 0px;
+            left: 0px;
+            width: 196px;
+            height: 246px;
+            padding-top: 150px;
+            opacity: 1;
+            transition: 2s all;
+            text-shadow: 1px 3px rgb(20, 33, 220);
+        }    
+
+    /** TEMPORADA 3**/     
+    .caja3{
+        position: absolute;
+        display: inline-block;
+        margin: auto;
+         left: 550px;
+         top: 200px;
+        width: 200px;
+        height: 400px;
+        border: 2px solid rgb(255, 0, 0);
+        overflow: hidden;
+         background-position-x: center;
+         background-image: url(https://static.wikia.nocookie.net/93d83432-fea4-4598-b361-eae8a53b101d/scale-to-width/755);
+         background-size: cover;
+         padding: 0px;
+         filter: brightness(0.5);
+        }   
+    .caja3:hover{
+        position: absolute;
+        display: inline-block;
+        margin: auto;
+         left: 550px;
+         top: 200px;
+        width: 200px;
+        height: 400px;
+        border: 2px solid rgb(0, 0, 0);
+        overflow: hidden;
+         background-position-x: center;
+         background-image: url(https://static.wikia.nocookie.net/93d83432-fea4-4598-b361-eae8a53b101d/scale-to-width/755);
+         background-size: cover;
+         padding: 0px;
+         filter: brightness(1);
+         transition: 2s all;
+        
+      
+    
+    }         
+    
+    .text-3{
+        font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+        font-size: 50px;
+        border: 2px solid rgb(0, 0, 0);
+        color: rgb(255, 0, 0);
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        display: inline-block;
+        top: 0px;
+        left: 0px;
+        width: 196px;
+        height: 246px;
+        padding-top: 150px;
+        opacity: 0.5;
+       
+    }
+        
+    .text-3:hover{
+            font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+            font-size: 50px;
+            border: 2px solid rgb(255, 0, 0);
+            color: rgb(0, 0, 0);
+            text-align: center;
+            text-decoration: none;
+            position: relative;
+            display: inline-block;
+            top: 0px;
+            left: 0px;
+            width: 196px;
+            height: 246px;
+            padding-top: 150px;
+            opacity: 1;
+            transition: 2s all;
+            text-shadow: 1px 3px rgb(255, 0, 0);
+        }            
+    
+    
+
+    
+
+    
+    
+   
+    
+
+
+    
+    
+    
+    
+   
+
+   
+
