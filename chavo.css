@@ -1,0 +1,231 @@
+
+*{
+    font-family: "Inter", sans-serif;
+    padding: 0px;
+    margin: 0px;
+   }
+   body {
+       background: rgb(0, 0, 0);
+       min-height: 100vh;
+       
+   }
+   
+     
+   
+   header{
+       text-align: center;
+       background: rgb(255, 0, 0);
+       height: 100px;
+       
+       animation: move 1s linear infinite forwards;
+    
+          
+   }
+   header::before {
+       content: "";
+       position: fixed;
+       top: 200px;
+       left: 1200px;
+       height: 700px;
+       width: 700px;
+       background: rgb(255, 0, 200);
+       filter: blur(750px);
+     }
+   header::after {
+       content: "";
+       position: fixed;
+       top: 200px;
+       left: 40px;
+       height: 700px;
+       width: 700px;
+       background: rgb(98, 0, 255);
+       filter: blur(750px);
+   }
+   
+   .inicio{
+       text-decoration: none;
+       font-size: 80px;  
+       color: rgb(255, 255, 255);
+    
+   }
+   .temp-text{
+   
+       font-size: 50px;
+       color: rgb(255, 255, 255);
+   }
+   .x1{
+    /*position*/
+    position: absolute;  
+    left: 70px;
+    top: 200px;
+     
+    width: 200px;
+    height: 400px;
+   
+     align-items: center;
+    
+
+    /*visual*/
+     background-image: url(https://w0.peakpx.com/wallpaper/981/197/HD-wallpaper-chiquinha-chaves-chavo-del-ocho-chespirito-chilindrina.jpg);
+     background-size: cover;
+     background-position-x: center;
+     border: 1px solid rgb(255, 0, 43);
+     border-radius: 1%;
+     
+   
+    /* text */
+    text-decoration: none;
+    font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+    font-size: 30px; 
+    color: rgb(255, 0, 43);
+    text-align: center;
+    text-shadow: 2px 2px  rgb(0, 0, 0) ;
+     
+}
+
+.x2{
+    /*position*/
+    position: absolute;  
+    left: 340px;
+    top: 200px;
+    
+    width: 200px;
+    height: 400px;
+   
+     align-items: center;
+    
+
+    /*visual*/
+     background-image: url(https://i.pinimg.com/originals/a1/f9/e7/a1f9e7bbdcd154b6e13530f5470f6802.jpg);
+     background-size: cover;
+     background-position-x: center;
+     border: 1px solid rgb(255, 0, 43);
+     border-radius: 1%;
+     
+   
+    /* text */
+    text-decoration: none;
+    font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+    font-size: 30px; 
+    color: rgb(255, 0, 43);
+    text-align: center;
+    text-shadow: 2px 2px  rgb(0, 0, 0) ;
+     
+}
+
+.x3{
+    /*position*/
+    position: absolute;  
+    left: 610px;
+    top: 200px;
+    
+    width: 200px;
+    height: 400px;
+   
+     align-items: center;
+    
+
+    /*visual*/
+     background-image: url(https://w0.peakpx.com/wallpaper/1018/524/HD-wallpaper-chaves-chavo-del-ocho-chepirito-presunto-sanduiche.jpg);
+     background-size: cover;
+     background-position-x: center;
+     border: 1px solid rgb(255, 0, 43);
+     border-radius: 1%;
+     
+   
+    /* text */
+    text-decoration: none;
+    font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+    font-size: 30px; 
+    color: rgb(255, 0, 43);
+    text-align: center;
+    text-shadow: 2px 2px  rgb(0, 0, 0) ;
+     
+}
+.x4{
+    /*position*/
+    position: absolute;  
+    left: 880px;
+    top: 200px;
+    
+    width: 200px;
+    height: 400px;
+   
+     align-items: center;
+    
+
+    /*visual*/
+     background-image: url(https://i.pinimg.com/236x/29/08/42/290842a1ebe0e0e34ff6ba28f6fb7a84.jpg);
+     background-size: cover;
+     background-position-x: center;
+     border: 1px solid rgb(255, 0, 43);
+     border-radius: 1%;
+     
+   
+    /* text */
+    text-decoration: none;
+    font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+    font-size: 30px; 
+    color: rgb(255, 0, 43);
+    text-align: center;
+    text-shadow: 2px 2px  rgb(0, 0, 0) ;
+     
+}
+.x5{
+    /*position*/
+    position: absolute;  
+    left: 1150px;
+    top: 200px;
+   
+    width: 200px;
+    height: 400px;
+   
+     align-items: center;
+    
+
+    /*visual*/
+     background-image: url(https://i.pinimg.com/1200x/ab/fa/51/abfa515e695537bb65c84858ed38e57e.jpg);
+     background-size: cover;
+     background-position-x: center;
+     border: 1px solid rgb(255, 0, 43);
+     border-radius: 1%;
+     
+   
+    /* text */
+    text-decoration: none;
+    font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+    font-size: 30px; 
+    color: rgb(255, 0, 43);
+    text-align: center;
+    text-shadow: 2px 2px  rgb(0, 0, 0) ;
+     
+}
+.x6{
+    /*position*/
+    position: absolute;  
+    left: 1420px;
+    top: 200px;
+   
+    width: 200px;
+    height: 400px;
+   
+     align-items: center;
+    
+
+    /*visual*/
+     background-image: url(https://i.pinimg.com/736x/40/ee/41/40ee41c7fa71af6342cd1c6652fde22c.jpg);
+     background-size: cover;
+     background-position-x: center;
+     border: 1px solid rgb(255, 0, 43);
+     border-radius: 1%;
+     
+   
+    /* text */
+    text-decoration: none;
+    font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+    font-size: 30px; 
+    color: rgb(255, 0, 43);
+    text-align: center;
+    text-shadow: 2px 2px  rgb(0, 0, 0) ;
+     
+}
