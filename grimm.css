@@ -1,0 +1,301 @@
+
+*{
+    font-family: "Inter", sans-serif;
+    padding: 0px;
+    margin: 0px;
+   }
+   body {
+       background: rgb(0, 0, 0);
+       min-height: 100vh;
+       
+   }
+   
+     
+   
+   header{
+       text-align: center;
+       background: rgb(0, 183, 255);
+       height: 100px;
+       
+       animation: move 1s linear infinite forwards;
+    
+          
+   }
+   header::before {
+       content: "";
+       position: fixed;
+       top: 200px;
+       left: 1200px;
+       height: 700px;
+       width: 700px;
+       background: rgb(0, 238, 255);
+       filter: blur(750px);
+     }
+   header::after {
+       content: "";
+       position: fixed;
+       top: 200px;
+       left: 40px;
+       height: 700px;
+       width: 700px;
+       background: rgb(153, 0, 255);
+       filter: blur(750px);
+   }
+   
+   .inicio{
+       text-decoration: none;
+       font-size: 80px;  
+       color: rgb(255, 255, 255);
+    
+   }
+   .temp-text{
+   
+       font-size: 50px;
+       color: rgb(255, 255, 255);
+   }
+   
+
+   .x1{
+           /*position*/
+           position: absolute;  
+           left: 90px;
+           top: 200px;
+   
+           width: 200px;
+           height: 150px;
+       
+       
+           /*visual*/
+            background-image: url(https://wallpapercave.com/wp/wp5004960.jpg);
+            background-size: cover;
+            background-position-x: center;
+            border: 1px solid rgb(0, 115, 192);
+            border-radius: 18%;
+            
+          
+           /* text */
+           text-decoration: none;
+           font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+           font-size: 40px; 
+           color: rgb(0, 162, 255);
+           text-align: center;
+           text-shadow: 1px 3px  black ;
+          
+       }
+       .x2{
+        /*position*/
+        position: absolute;  
+        left: 310px;
+        top: 200px;
+
+        width: 200px;
+        height: 150px;
+    
+    
+        /*visual*/
+         background-image: url(https://wallpapercave.com/wp/wp5004960.jpg);
+         background-size: cover;
+         background-position-x: center;
+         border: 1px solid rgb(0, 115, 192);
+         border-radius: 18%;
+         
+       
+        /* text */
+        text-decoration: none;
+        font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+        font-size: 40px; 
+        color: rgb(0, 162, 255);
+        text-align: center;
+        text-shadow: 1px 3px  black ;
+       
+    }
+    .x3{
+        /*position*/
+        position: absolute;  
+        left: 530px;
+        top: 200px;
+
+        width: 200px;
+        height: 150px;
+    
+    
+        /*visual*/
+         background-image: url(https://wallpapercave.com/wp/wp5004960.jpg);
+         background-size: cover;
+         background-position-x: center;
+         border: 1px solid rgb(0, 115, 192);
+         border-radius: 18%;
+         
+       
+        /* text */
+        text-decoration: none;
+        font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+        font-size: 40px; 
+        color: rgb(0, 162, 255);
+        text-align: center;
+        text-shadow: 1px 3px  black ;
+       
+    }
+    .x4{
+        /*position*/
+        position: absolute;  
+        left: 750px;
+        top: 200px;
+
+        width: 200px;
+        height: 150px;
+    
+    
+        /*visual*/
+         background-image: url(https://wallpapercave.com/wp/wp5004960.jpg);
+         background-size: cover;
+         background-position-x: center;
+         border: 1px solid rgb(0, 115, 192);
+         border-radius: 18%;
+         
+       
+        /* text */
+        text-decoration: none;
+        font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+        font-size: 40px; 
+        color: rgb(0, 162, 255);
+        text-align: center;
+        text-shadow: 1px 3px  black ;
+       
+    }
+      
+    .x5{
+        /*position*/
+        position: absolute;  
+        left: 970px;
+        top: 200px;
+
+        width: 200px;
+        height: 150px;
+    
+    
+        /*visual*/
+         background-image: url(https://wallpapercave.com/wp/wp5004960.jpg);
+         background-size: cover;
+         background-position-x: center;
+         border: 1px solid rgb(0, 115, 192);
+         border-radius: 18%;
+         
+       
+        /* text */
+        text-decoration: none;
+        font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+        font-size: 40px; 
+        color: rgb(0, 162, 255);
+        text-align: center;
+        text-shadow: 1px 3px  black ;
+       
+    }
+    .x6{
+        /*position*/
+        position: absolute;  
+        left: 1190px;
+        top: 200px;
+
+        width: 200px;
+        height: 150px;
+    
+    
+        /*visual*/
+         background-image: url(https://wallpapercave.com/wp/wp5004960.jpg);
+         background-size: cover;
+         background-position-x: center;
+         border: 1px solid rgb(0, 115, 192);
+         border-radius: 18%;
+         
+       
+        /* text */
+        text-decoration: none;
+        font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+        font-size: 40px; 
+        color: rgb(0, 162, 255);
+        text-align: center;
+        text-shadow: 1px 3px  black ;
+       
+    }
+    .x7{
+        /*position*/
+        position: absolute;  
+        left: 1410px;
+        top: 200px;
+
+        width: 200px;
+        height: 150px;
+    
+    
+        /*visual*/
+         background-image: url(https://wallpapercave.com/wp/wp5004960.jpg);
+         background-size: cover;
+         background-position-x: center;
+         border: 1px solid rgb(0, 115, 192);
+         border-radius: 18%;
+         
+       
+        /* text */
+        text-decoration: none;
+        font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+        font-size: 40px; 
+        color: rgb(0, 162, 255);
+        text-align: center;
+        text-shadow: 1px 3px  black ;
+       
+    }
+    .x8{
+        /*position*/
+        position: absolute;  
+        left: 90px;
+        top: 400px;
+
+        width: 200px;
+        height: 150px;
+    
+    
+        /*visual*/
+         background-image: url(https://wallpapercave.com/wp/wp5004960.jpg);
+         background-size: cover;
+         background-position-x: center;
+         border: 1px solid rgb(0, 115, 192);
+         border-radius: 18%;
+         
+       
+        /* text */
+        text-decoration: none;
+        font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+        font-size: 40px; 
+        color: rgb(0, 162, 255);
+        text-align: center;
+        text-shadow: 1px 3px  black ;
+       
+    }
+    .x9{
+     /*position*/
+     position: absolute;  
+     left: 310px;
+     top: 400px;
+
+     width: 200px;
+     height: 150px;
+ 
+ 
+     /*visual*/
+      background-image: url(https://wallpapercave.com/wp/wp5004960.jpg);
+      background-size: cover;
+      background-position-x: center;
+      border: 1px solid rgb(0, 115, 192);
+      border-radius: 18%;
+      
+    
+     /* text */
+     text-decoration: none;
+     font-family: 'Bebas Neue', Arial, Helvetica,sans-serif;
+     font-size: 40px; 
+     color: rgb(0, 162, 255);
+     text-align: center;
+     text-shadow: 1px 3px  black ;
+    
+ }
