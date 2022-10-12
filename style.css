@@ -28,7 +28,7 @@ header::before {
     left: 1200px;
     height: 700px;
     width: 700px;
-    background: rgb(183, 0, 255);  
+    background: rgb(0, 0, 0);  
     filter: blur(750px);
   }
 header::after {
@@ -38,7 +38,7 @@ header::after {
     left: 40px;
     height: 700px;
     width: 700px;
-    background: rgb(255, 0, 157);
+    background: rgb(0, 0, 0);
     filter: blur(750px);
 }
 
